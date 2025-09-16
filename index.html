@@ -4,6 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>o pais das maravilhas</title>
+
+ <style>
+        body {
+            height: 2000px; /* Apenas para fins de demonstração */
+            font-family: Arial, sans-serif;
+        }
+        #scroll-up, #scroll-down {
+            position: fixed;
+            bottom: 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+        #scroll-up {
+            left: 20px;
+        }
+        #scroll-down {
+            right: 20px;
+        }
+    </style>
+</head>
+<body>
+    <button id="scroll-up">Subir</button>
+    <button id="scroll-down">Descer</button>
+
+    <script>
+        // Função para rolar a página para cima
+        document.getElementById('scroll-up').addEventListener('click', function() {
+            window.scrollBy(0, -200); // Ajuste o valor para o quanto você quer rolar para cima
+        });
+
+        // Função para rolar a página para baixo
+        document.getElementById('scroll-down').addEventListener('click', function() {
+            window.scrollBy(0, 200); // Ajuste o valor para o quanto você quer rolar para baixo
+        });
+    </script>
+</body>
+</html>
+
+
+
 </head>
 <body>
     <p>o pais das maravilhas é um mundo paralelo onde existem muita diversão e vai além da imaginação onde há fadas muito fascinantes e esbeltas e muito animadas
@@ -15,5 +60,8 @@
         é preciso buscar mais a entender sobre cada detalhe dessas belas histórias intrigantes que talvez vai saber se existem ou se é apenas um mito comum para entreter
         as crianças ou até mesmo alguns adutos ou até mesmo adolescentes as fadas tem um canto único onde esse canto faz um chamado para os vagalumes as vezes de 
     coisas boas ou até mesmo ruim dessa maneira todos entendem cada canto.</p>
+<img src="1.jpeg"
+<img src="2.jpeg"
+<img src="3.jpeg"
 </body>
 </html>
